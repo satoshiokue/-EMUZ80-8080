@@ -3,7 +3,7 @@
 Maximum clock 1.1MHz
 
 ## 回路図
-
+https://github.com/satoshiokue/MEZ8085
 
 ## アドレスマップ
 ```
