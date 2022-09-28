@@ -2,7 +2,7 @@
 
 μPD8085AHC  
 
-Maximum clock 1.1MHz
+Maximum clock 1.1MHz(550kHz)
 
 PIC18F47Q84 / PIC18F47Q83
 
