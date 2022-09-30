@@ -1,6 +1,6 @@
 # EMUZ80-8085
 
-![MEZ8085](https://github.com/satoshiokue/EMUZ80-8085/blob/main/imgs/IMG_80851_proto.jpeg)  
+![MEZ8085](https://github.com/satoshiokue/EMUZ80-8085/blob/main/imgs/IMG_8085_proto1.jpeg)  
 8085 Single-Board Computer
 
 μPD8085AHC  
