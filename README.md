@@ -22,3 +22,9 @@ I/O
 8251通信レジスタ 0x00
 8251制御レジスタ 0x01
 ```
+
+## Software UART
+![MEZ8085](https://github.com/satoshiokue/EMUZ80-8085/blob/main/imgs/IMG_8085_proto2.jpeg)  
+8085 Software UART  
+
+コネクタ CON4 からSID、SOD信号を取り出すことができます。
