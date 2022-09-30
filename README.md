@@ -52,10 +52,11 @@ RAMの開始位置はSBC8080に準じています。
 ## 8080/8085プログラムの格納
 インテルHEXデータを配列データ化して配列rom[]に格納するとuPD8085AHCで実行できます。インテルHEXデータを手作業で変換するのもいいかもしれません。
 
-テキスト変換例
+テキスト変換例  
+データパック(SBC8080_datapack.zip）に含まれる Grant Searle BASIC MSBAS80.HEXは次のように変換します。
 ```
-hex2bin -p 00 MOASORT.HEX
-xxd -i -c16 MOASORT.bin > MOASORT.txt
+hex2bin -p 00 MSBAS80.HEX
+xxd -i -c16 MSBAS80.bin > MSBAS80.txt
 ```
 
 使用ツール例[E3V3A / hex2bin]  
