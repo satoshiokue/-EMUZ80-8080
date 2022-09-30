@@ -53,7 +53,8 @@ RAMの開始位置はSBC8080に準じています。
 インテルHEXデータを配列データ化して配列rom[]に格納するとuPD8085AHCで実行できます。インテルHEXデータを手作業で変換するのもいいかもしれません。
 
 テキスト変換例  
-データパック(SBC8080_datapack.zip）に含まれる Grant Searle BASIC MSBAS80.HEXは次のように変換します。
+
+データパック(SBC8080_datapack.zip）に含まれる GrantSearle BASIC MSBAS80.HEXは次のように変換します。
 ```
 hex2bin -p 00 MSBAS80.HEX
 xxd -i -c16 MSBAS80.bin > MSBAS80.txt
@@ -61,6 +62,8 @@ xxd -i -c16 MSBAS80.bin > MSBAS80.txt
 
 使用ツール例[E3V3A / hex2bin]  
 https://github.com/E3V3A/hex2bin
+
+* PICの書き込み完了後、BASICがキー入力を受け付けない場合はケーブルを全部外して電源を入れ直してください。
 
 ## Software UART
 ![MEZ8085](https://github.com/satoshiokue/EMUZ80-8085/blob/main/imgs/IMG_8085_proto2.jpeg)  
