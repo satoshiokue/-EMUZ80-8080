@@ -49,6 +49,18 @@ I/O
 RAMの開始位置はSBC8080に準じています。  
 メモリサイズが異なるため、RAMのスタックポインタやワークエリアを確認してください。
 
+## 8080/8085プログラムの格納
+インテルHEXデータを配列データ化して配列rom[]に格納するとuPD8085AHCで実行できます。インテルHEXデータを手作業で変換するのもいいかもしれません。
+
+テキスト変換例
+```
+hex2bin -p 00 MOASORT.HEX
+xxd -i -c16 MOASORT.bin > MOASORT.txt
+```
+
+使用ツール例[E3V3A / hex2bin]  
+https://github.com/E3V3A/hex2bin
+
 ## Software UART
 ![MEZ8085](https://github.com/satoshiokue/EMUZ80-8085/blob/main/imgs/IMG_8085_proto2.jpeg)  
 8085 Software UART  
@@ -59,7 +71,7 @@ RAMの開始位置はSBC8080に準じています。
 ## 謝辞
 思い入れのあるCPUを動かすことのできるシンプルで美しいEMUZ80を開発された電脳伝説さんに感謝いたします。
 
-そしてEMUZ80の世界を発展させている開発者の皆さんから刺激を受けて6800に挑戦しています。
+そしてEMUZ80の世界を発展させている開発者の皆さんから刺激を受けて8085に挑戦しています。
 
 ## 参考）EMUZ80
 EUMZ80はZ80CPUとPIC18F47Q43のDIP40ピンIC2つで構成されるシンプルなコンピュータです。
