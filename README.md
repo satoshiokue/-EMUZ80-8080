@@ -42,6 +42,9 @@ Memory
 ROM   0x0000 - 0x3FFF 16kバイト
 RAM   0x8000 - 0x9FFF 8kバイト
 
+178行目の #define UMON85 を有効化するとRAMの位置が変わります。
+RAM   0xE000 - 0xFFFF 8kバイト
+
 I/O
 8251通信レジスタ 0x00
 8251制御レジスタ 0x01
