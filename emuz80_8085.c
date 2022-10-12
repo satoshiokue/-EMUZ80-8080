@@ -562,13 +562,13 @@ void main(void) {
 
     // CLC VI enable
     CLC1IF = 0;		// Clear the CLC1 interrupt flag
-    CLC2IF = 0;		// Clear the CLC3 interrupt flag
+    CLC2IF = 0;		// Clear the CLC2 interrupt flag
     CLC3IF = 0;		// Clear the CLC3 interrupt flag
     CLC4IF = 0;		// Clear the CLC4 interrupt flag
-    CLC1IE = 1;     // Enabling CLC1 interrupt ALE falling
-    CLC2IE = 1;     // Enabling CLC3 interrupt /RD raising
-    CLC3IE = 1;     // Enabling CLC3 interrupt /RD raising
-    CLC4IE = 1;		// Enabling CLC4 interrupt /WT raising
+    CLC1IE = 1;		// Enabling CLC1 interrupt ALE raising
+    CLC2IE = 1;		// Enabling CLC2 interrupt INTR falling
+    CLC3IE = 1;		// Enabling CLC3 interrupt /RD falling
+    CLC4IE = 1;		// Enabling CLC4 interrupt /WT falling
 
     GIE = 1;        // Global interrupt enable
     LATE2 = 1;      // Release reset
