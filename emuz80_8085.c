@@ -491,7 +491,7 @@ void main(void) {
     CLCnPOL = 0x00;     // Not inverted
     CLCnCON = 0x8A;     // Negative Edge / 4 input AND
 
-    //========== CLC5 RAM address decoder 0x8000 - 0x8FFF ==========
+    //========== CLC5 RAM address decoder 0x8000 - 0xFFF ==========
 #ifndef UMON85
     CLCSELECT = 4;      // CLC5 select
 
