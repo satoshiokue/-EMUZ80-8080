@@ -26,7 +26,10 @@ uPD8085AHC
 https://drive.google.com/drive/folders/1NaIIpzsUY3lptekcrJjwyvWTBNHIjUf1
 
 ## メザニンボード
-https://github.com/satoshiokue/MEZ8085
+https://github.com/satoshiokue/MEZ8085  
+
+MEZ8085専用プリント基板 - オレンジピコショップ  
+https://store.shopping.yahoo.co.jp/orangepicoshop/pico-a-060.html
 
 ## 回路図
 https://github.com/satoshiokue/MEZ8085/blob/main/MEZ8085.pdf
