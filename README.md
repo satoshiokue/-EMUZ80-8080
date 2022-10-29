@@ -20,6 +20,7 @@ PIC18F47Q84 / PIC18F47Q83
 
 動作確認済みMPU  
 uPD8085AHC  
+AMD D8085AH-1  
 
 このソースコードはGazelleさんのEMUZ80用main_cpz.cを元に改変してGPLライセンスに基づいて公開するものです。
 
