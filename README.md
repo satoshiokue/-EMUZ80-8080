@@ -3,7 +3,7 @@
 ![MEZ8085](https://github.com/satoshiokue/EMUZ80-8085/blob/main/imgs/IMG_8085_proto1.jpeg)  
 8085 Single-Board Computer
 
-電脳伝説さん(@vintagechips)のEMUZ80の信号を組み替え、uPD8085AHCを動作させることができます。  
+電脳伝説さん(@vintagechips)のEMUZ80が出力するZ80 CPU信号をメザニンボードで組み替え、uPD8085AHCを動作させることができます。  
 アドレスマップをSBC8085に準じることで同データパックのサンプルコードを体験する目的で作成しました。  
 
 SBC8080 CPUルーズキット    
