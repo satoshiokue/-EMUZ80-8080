@@ -60,6 +60,10 @@ RAMの開始位置はSBC8080に準じています。
 
 ## 動作確認用のPICプログラムの書き込み
 EMUZ80技術資料8ページにしたがってPICに適合するemuz80_8085_Qxx.hexファイルを書き込んでください。  
+
+またはArduino UNOを用いてPICを書き込みます。  
+https://github.com/satoshiokue/Arduino-PIC-Programmer
+
 8085からの起動メッセージとエコーバックプログラムです。
 
 ## 8080/8085プログラムの格納
